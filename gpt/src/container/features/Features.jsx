@@ -1,5 +1,6 @@
 import React from 'react'
 import './features.scss'
+import { Feature } from '../../Components'
 
 
 export default function features() {
@@ -10,7 +11,10 @@ export default function features() {
         <p>Request Early Access to Get Started</p>
       </div>
         <div className="gpt3__features-container">
-          
+          <Feature />
+          <Feature />
+          <Feature />
+          <Feature />
         </div>
     </div>
   )
