@@ -8,7 +8,7 @@ const featuresData = [
     title: 'Improving end distrusts instantly',
     text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
   },
-  {
+  {    
     title: 'Become the tended active',
     text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
   },
