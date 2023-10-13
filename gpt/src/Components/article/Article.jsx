@@ -2,10 +2,12 @@ import React from 'react'
 import './article.scss';
 
 
-const Article = () => {
+const Article = ({ imgUrl }) => {
   return (
-    <div>
-     
+    <div className='gpt3__blof-container_article'>
+     <div className="gtp3__blog-container_artcile-image">
+      <img src={imgUrl}/>
+     </div>
     </div>
   )
 }
