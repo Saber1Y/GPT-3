@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
-import { Brand, CTA, Navbar } from './Components';
-import { Footer, Header, Possibility, Features, WhatGPT3, Blog } from './container';
-import './App.scss';
-// import './index.scss';
+import React, { useState } from "react";
+import { Brand, CTA, Navbar } from "./Components";
+import {
+  Footer,
+  Header,
+  Possibility,
+  Features,
+  WhatGPT3,
+  Blog,
+} from "./container";
+import "./App.scss";
+
 
 export default function App() {
   return (

@@ -1,6 +1,5 @@
-import React from 'react'
-import './article.scss';
-
+import React from "react";
+import "./article.scss";
 
 const Article = ({ imgUrl, date, text }) => (
   <div className="gpt3__blog-container_article">
@@ -17,5 +16,4 @@ const Article = ({ imgUrl, date, text }) => (
   </div>
 );
 
-export default Article
-
+export default Article;
