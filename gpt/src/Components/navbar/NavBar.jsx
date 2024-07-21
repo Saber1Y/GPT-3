@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import "./navbar.scss";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
+import { motion } from "framer-motion";
 
 const Menu = () => {
   return (
     <>
       <div className="gpt3__navbar-links_container">
-        <p>
+        <motion.p whileHover={{ y: -2 }}>
           <a href="#home">Home</a>
-        </p>
+        </motion.p>
         <p>
           <a href="#whgpt3">What is GPT3?</a>
         </p>

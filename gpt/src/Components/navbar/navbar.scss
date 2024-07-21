@@ -14,6 +14,7 @@
   
   .gpt3__navbar-links_logo {
     margin-right: 2rem;
+    cursor: pointer;
   }
   
   .gpt3__navbar-links_logo img {
@@ -25,7 +26,7 @@
     display: flex;
     flex-direction: row;
   }
-  .gpt3__navbar-links_container:hover {
+  .gpt3__navbar-links_container > p:hover {
     color: #FF8A71;
   }
   
