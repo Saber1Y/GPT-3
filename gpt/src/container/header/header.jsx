@@ -4,7 +4,7 @@ import people from "../../assets/people.png";
 import ai from "../../assets/ai.png";
 import { motion } from "framer-motion";
 
-export default function Header() {
+const Header = () => {
   return (
     <div className="gpt3__header section__padding" id="#home">
       <div className="gpt3__header-content">
@@ -31,4 +31,6 @@ export default function Header() {
       </motion.div>
     </div>
   );
-}
+};
+
+export default Header;
